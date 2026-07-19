@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiCheckCircle, FiAlertCircle, FiX } from 'react-icons/fi';
+import { FiCheckCircle, FiAlertCircle } from 'react-icons/fi';
 import './Toast.css';
 
 function Toast({ message, type }) {
