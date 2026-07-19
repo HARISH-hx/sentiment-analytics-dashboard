@@ -1,10 +1,10 @@
 import React from 'react';
-import { FiBarChart3, FiMessageSquare, FiTrendingUp } from 'react-icons/fi';
+import { FiBarChart, FiMessageSquare, FiTrendingUp } from 'react-icons/fi';
 import './Navigation.css';
 
 function Navigation({ activeTab, setActiveTab }) {
   const tabs = [
-    { id: 'dashboard', label: 'Dashboard', icon: FiBarChart3 },
+    { id: 'dashboard', label: 'Dashboard', icon: FiBarChart },
     { id: 'reviews', label: 'Reviews', icon: FiMessageSquare },
     { id: 'analytics', label: 'Analytics', icon: FiTrendingUp },
   ];
